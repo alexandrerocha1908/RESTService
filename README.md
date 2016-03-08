@@ -18,8 +18,10 @@ Using
 
 You can test the service either by clicking the controller in the sample Grails page or via:
 
+```
 curl -X GET -H "Accept:application/xml" http://localhost:8080/RESTService/person
 curl -X GET -H "Accept:application/json" http://localhost:8080/RESTService/person
+```
 
 or even, which defaults to JSON.
 
